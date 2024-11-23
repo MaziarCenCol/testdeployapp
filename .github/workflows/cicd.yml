@@ -24,5 +24,4 @@ jobs:
               with:
                 app-name: DeployNodeApp
                 publish-profile: ${{secrets.MAZ_SECRET_DEPLOY}}
-                packages: .
                 
